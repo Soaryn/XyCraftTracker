@@ -3,18 +3,19 @@ description: "Feature that you'd like to see added or changed in XyCraft. Note, 
 title: "[Suggestion]: "
 labels: [ "type: enhancement" ]
 body:
-  - type: checkboxes
-    attributes:
-      label: XyCraft Module
-      description: Which modules are you talking about?
-      multiple: true
-      options:
+    - type: checkboxes
+      id: modules
+      attributes:
+        label: XyCraft Module
+        description: Which modules are you talking about?
+        multiple: true
+        options:
           - label: Core
           - label: World
           - label: Override
           - label: Machines
-    validations:
-      required: true
+      validations:
+        required: true
     -   type: textarea
         attributes:
             label: Describe the Suggestion
