@@ -1,7 +1,7 @@
 name: Bug
 description: "Feature that you'd like to see added or changed in XyCraft. Note, older versions of Minecraft may not be fixed unless the fix is totally required to play."
 title: "[Bug]: "
-labels: [ "type: bug" ]
+labels: [ "bug" ]
 body:
   - type: dropdown
     id: modules
