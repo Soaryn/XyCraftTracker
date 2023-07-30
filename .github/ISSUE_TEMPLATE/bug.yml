@@ -31,6 +31,12 @@ body:
       required: true
   - type: textarea
     attributes:
+      label: Reproduction Steps
+      description: Walk us through the issue, one step at a time. We can't help you if we can't follow your footsteps.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
       label: Screenshots and Videos
       description: If applicable, add screenshots or videos to help explain your suggestion.
     validations:
