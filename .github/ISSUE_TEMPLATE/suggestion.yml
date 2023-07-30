@@ -1,5 +1,6 @@
 name: Suggestion
 description: "Feature that you'd like to see added or changed in XyCraft. Note, that newer features will likely only happen in the current/newer version of Minecraft."
+title: "[Suggestion]: "
 labels: [ "type: enhancement" ]
 body:
     -   type: textarea
