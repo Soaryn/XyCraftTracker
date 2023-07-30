@@ -3,9 +3,9 @@ description: "Found a bug? Congrats! Is it crashing? Uhhh woops! Tell us about i
 labels: [ "type: bug" ]
 body:
   - type: dropdown
-      id: Minecraft Version
+      id: mcversion
       attributes:
-        label: Version
+        label: Minecraft Version
         description: What version of our software are you running?
         options:
           - 1.20 (Default)
