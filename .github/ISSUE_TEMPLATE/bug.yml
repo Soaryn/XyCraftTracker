@@ -1,5 +1,5 @@
 name: Bug
-description: "Feature that you'd like to see added or changed in XyCraft. Note, that newer features will likely only happen in the current/newer version of Minecraft."
+description: "Feature that you'd like to see added or changed in XyCraft. Note, older versions of Minecraft may not be fixed unless the fix is totally required to play."
 title: "[Bug]: "
 labels: [ "type: bug" ]
 body:
