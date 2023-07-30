@@ -1,4 +1,4 @@
-hname: Suggestion
+name: Suggestion
 description: "Feature that you'd like to see added or changed in XyCraft. Note, that newer features will likely only happen in the current/newer version of Minecraft."
 labels: [ "type: enhancement" ]
 body:
