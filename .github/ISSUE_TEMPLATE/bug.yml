@@ -1,0 +1,41 @@
+name: Bug
+description: "Found a bug? Congrats! Is it crashing? Uhhh woops! Tell us about it!"
+labels: [ "type: bug" ]
+body:
+  - type: dropdown
+      id: Minecraft Version
+      attributes:
+        label: Version
+        description: What version of our software are you running?
+        options:
+          - 1.20 (Default)
+          - 1.19.2 (Edge)
+      validations:
+        required: true
+    -   type: textarea
+        attributes:
+            label: Describe the Bug
+            description: What is happening? How to reproduce it is below.
+        validations:
+            required: true
+   -   type: textarea
+        attributes:
+            label: Steps to reproduce
+            description: Be as thorough as possible! In order to properly assist, we need to be able to go through your steps.
+        validations:
+            required: true            
+    -   type: textarea
+        attributes:
+            label: Screenshots and Videos
+            description: If applicable, add screenshots or videos to help explain your suggestion.
+        validations:
+            required: false
+    -   type: textarea
+        attributes:
+            label: Additional Context
+            description: Add any extra context about the suggestion here.
+        validations:
+            required: false
+    -   type: markdown
+        attributes:
+            value: "Thanks for your time! We'll see what we can do"
