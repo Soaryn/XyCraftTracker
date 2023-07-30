@@ -3,7 +3,7 @@ description: "Found a bug? Congrats! Is it crashing? Uhhh woops! Tell us about i
 labels: [ "type: bug" ]
 body:
  - type: dropdown
-    id: browsers
+    id: version
     attributes:
       label: Which minecraft version?
         options:
