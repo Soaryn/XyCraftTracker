@@ -4,6 +4,17 @@ title: "[Bug]: "
 labels: [ "type: bug" ]
 body:
   - type: dropdown
+    id: modules
+    attributes:
+      label: XyCraft Module
+      description: Which modules are you talking about?
+      multiple: true
+      options:
+        - Core
+        - World
+        - Override
+        - Machines
+  - type: dropdown
     attributes:
       label: Minecraft Version
       description: Which version of Minecraft?
