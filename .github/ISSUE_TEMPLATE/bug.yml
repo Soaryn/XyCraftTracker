@@ -2,15 +2,16 @@ name: Bug
 description: "Found a bug? Congrats! Is it crashing? Uhhh woops! Tell us about it!"
 labels: [ "type: bug" ]
 body:
- - type: dropdown
-    id: version
-    attributes:
-      label: Which minecraft version?
-        options:
-          - 1.20
-          - 1.19.2
-      validations:
-        required: true
+- type: dropdown
+  attributes:
+    label: Minecraft Version
+    description: What version of our Minecraft are you running?
+    multiple: false
+    options:
+      - 1.20
+      - 1.19.2 (Edge)
+  validations:
+    required: true
     -   type: textarea
         attributes:
             label: Describe the Bug
