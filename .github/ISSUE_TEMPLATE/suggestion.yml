@@ -4,7 +4,6 @@ title: "[Suggestion]: "
 labels: [ "type: enhancement" ]
 body:
   - type: checkboxes
-    id: modules
     attributes:
       label: XyCraft Module
       description: Which modules are you talking about?
