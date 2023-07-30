@@ -8,7 +8,6 @@ body:
       attributes:
         label: XyCraft Module
         description: Which modules are you talking about?
-        multiple: true
         options:
           - label: Core
           - label: World
