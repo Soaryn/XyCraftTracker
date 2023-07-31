@@ -10,14 +10,10 @@ body:
       description: Which modules are you talking about?
       multiple: true
       options:
-        - name: Core
-          labels: ['core']
-        - name: World
-          labels: ['world']
-        - name: Override
-          labels: ['override']
-        - name: Machines
-          labels: ['machines']
+        - Core
+        - World
+        - Override
+        - Machines
   - type: dropdown
     attributes:
       label: Minecraft Version
