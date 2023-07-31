@@ -11,13 +11,13 @@ body:
       multiple: true
       options:
         - name: Core
-          labels: ["core"]
+          labels: ['core']
         - name: World
-          labels: ["world"]
+          labels: ['world']
         - name: Override
-          labels: ["override"]
+          labels: ['override']
         - name: Machines
-          labels: ["machines"]
+          labels: ['machines']
   - type: dropdown
     attributes:
       label: Minecraft Version
