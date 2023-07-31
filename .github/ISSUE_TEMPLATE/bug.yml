@@ -10,10 +10,14 @@ body:
       description: Which modules are you talking about?
       multiple: true
       options:
-        - Core
-        - World
-        - Override
-        - Machines
+        - name: Core
+          labels: ["core"]
+        - name: World
+          labels: ["world"]
+        - name: Override
+          labels: ["override"]
+        - name: Machines
+          labels: ["machines"]
   - type: dropdown
     attributes:
       label: Minecraft Version
@@ -25,6 +29,7 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: severity
     attributes:
       label: Severity
       description: How bad is it?
@@ -36,6 +41,7 @@ body:
     validations:
       required: true
   - type: textarea
+    id: desc
     attributes:
       label: Describe the Suggestion
       description: What should be added or changed?
