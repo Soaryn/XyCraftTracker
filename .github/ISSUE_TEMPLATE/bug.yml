@@ -1,25 +1,27 @@
 name: Bug
-description: "Feature that you'd like to see added or changed in XyCraft. Note, older versions of Minecraft may not be fixed unless the fix is totally required to play."
+description: "Found a bug. Note, older versions of Minecraft are unlikely to be fixed."
 title: "[Bug]: "
 labels: [ "bug" ]
 body:
   - type: dropdown
     id: modules
     attributes:
-      label: XyCraft Module
-      description: Which modules are you talking about?
+      label: Mod Title
+      description: Which mod are you talking about?
       multiple: true
       options:
-        - Core
-        - World
-        - Override
-        - Machines
+        - XyCraft Core
+        - XyCraft World
+        - XyCraft Override
+        - XyCraft Machines
+        - Simple Weather
   - type: dropdown
     attributes:
       label: Minecraft Version
       description: Which version of Minecraft?
       multiple: false
       options:
+        - "1.20.4"
         - "1.20.1"
         - "1.19.2"
     validations:
