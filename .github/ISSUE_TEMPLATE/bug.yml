@@ -21,7 +21,7 @@ body:
       description: Which version of Minecraft?
       multiple: false
       options:
-        - "1.20.4"
+        - "1.21.0"
         - "1.20.1"
         - "1.19.2"
     validations:
@@ -37,6 +37,12 @@ body:
         - Performance
         - Crashing
     validations:
+      required: true
+  - type: textarea
+    id: neoversion
+    attributes:
+      label: NeoForge Version
+      description: What version of NeoForge are you using?
       required: true
   - type: textarea
     id: desc
