@@ -43,6 +43,7 @@ body:
     attributes:
       label: NeoForge Version
       description: What version of NeoForge are you using?
+    validations:
       required: true
   - type: textarea
     id: desc
