@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "xycraft_world:ore_xy_light",
+  "step": "underground_ores"
+}

@@ -18,12 +18,11 @@ body:
   - type: dropdown
     attributes:
       label: Minecraft Version
-      description: Which version of Minecraft?
+      description: Which version of Minecraft? If it is not listed, then the version is no longer supported, so please check to see if the issue happens in the latest version.
       multiple: false
       options:
-        - "1.21.0"
-        - "1.20.1"
-        - "1.19.2"
+        - "1.21.3"
+        - "1.21.1"
     validations:
       required: true
   - type: dropdown
