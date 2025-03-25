@@ -15,12 +15,15 @@ body:
         - XyCraft Override
         - XyCraft Machines
         - Simple Weather
+        - Simple Creative Menu
+        - No Frame Limiter
   - type: dropdown
     attributes:
       label: Minecraft Version
       description: Which version of Minecraft? If it is not listed, then the version is not fully supported, so please check to see if the issue happens in the latest version.
       multiple: false
       options:
+        - "1.21.5"
         - "1.21.4"
         - "1.21.1"
     validations:
